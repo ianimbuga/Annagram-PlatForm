@@ -75,7 +75,7 @@ Once the project is up and running, you can interact with it as follows:
 
 
 ## API Endpoints
-The Social Media Platform uses a mock API (JSON Server) to simulate backend functionality. The following endpoints are available:
+The Annagram Platform uses a mock API (JSON Server) to simulate backend functionality. The following endpoints are available:
 
 * POST /comments: Creates a new comment.
 

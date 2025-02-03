@@ -1,5 +1,5 @@
 
-## Social Media Platform
+## Annagram Platform
 The Social Media Platform is a React-based app where users can create posts, comment, and like content. It uses JSON Server as a mock backend to manage users, posts, comments, and likes. This project includes content creation, and interaction features.
 
 ## Table of Contents
@@ -16,7 +16,7 @@ The Social Media Platform is a React-based app where users can create posts, com
 
 ## Overview
 
-The Social Media Platform allows users to post content, and interact with others through comments and likes.
+The Annagram Platform allows users to post content, and interact with others through comments and likes.
 
 This project features:
 
@@ -26,7 +26,7 @@ This project features:
 
 
 ## Use Case
-The Social Platform is designed for users to share posts, comment, and like content. It enables social interactions, content sharing, and engagement, providing a community-driven platform for users to connect and express themselves.
+The Annagram Platform is designed for users to share posts, comment, and like content. It enables social interactions, content sharing, and engagement, providing a community-driven platform for users to connect and express themselves.
 
 ## Features
 * Post Creation: Users can create and share posts with text and images.
@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 * Node.js installed on your machine.
 
 1. Clone the repository
-git clone https://github.com/ianimbuga/Social-Platform.git
+git clone https://github.com/ianimbuga/Annagram-PlatForm.git
 cd Social platform
 
 2. Install dependencies
@@ -86,14 +86,13 @@ The Social Media Platform uses a mock API (JSON Server) to simulate backend func
 * POST /likes: Likes a post.
 
 ## Folder Structure
-instagram-like-social-media-platform/
+instagram-like-Annagram platform/
 │
 ├── backend/                        # Backend directory (Flask API)
 │   ├── app.py                      # Main file for the Flask application
 │   ├── config.py                   # Configuration settings (e.g., database URI, environment)
 │   ├── models.py                   # Database models for User, Post, Comment, Like
 │   ├── migrations/                 # Folder for Flask-Migrate migrations
-│   ├── requirements.txt            # List of Python dependencies (Flask, SQLAlchemy, etc.)
 │   └── .env                        # Environment variables (e.g., database URL, secret keys)
 │
 ├── frontend/                       # Frontend directory (React application)
@@ -103,11 +102,9 @@ instagram-like-social-media-platform/
 │   │   ├── App.js                  # Main React component for routing
 │   │   ├── components/             # Folder for UI components
 │   │   │   ├── Navbar.js           # Navigation bar component
-│   │   │   ├── PostList.js         # Component to list posts
 │   │   │   ├── CommentList.js      # Component to list comments under a post
 │   │   │   ├── CommentForm.js      # Form to add a new comment
 │   │   │   ├── Post.js             # Component for creating new posts
-│   │   │   └── UserList.js         # Component to list users
 │   │   ├── api/                    # Folder for API interaction logic (axios requests)
 │   │   │   └── api.js              # API call functions (GET, POST, DELETE for posts, comments, etc.)
 │   │   ├── App.css                 # Global CSS file for styling
@@ -123,7 +120,7 @@ xfvb
 
 ## Contributing
 
-We welcome contributions! If you'd like to improve or extend Social Platform, feel free to fork the repository, create a new branch, and submit a pull request.
+We welcome contributions! If you'd like to improve or extend Annagram Platform, feel free to fork the repository, create a new branch, and submit a pull request.
 
 # Steps to Contribute
 1. Fork the repository.
